@@ -5,13 +5,51 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario</title>
-    <hr>/
+</head>
+<body>
+	<div>
+		<h1>Tienes Algo para Decir?</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quo adipisci commodi recusandae, molestiae alias dicta repellat necessitatibus, enim iure doloribus culpa veritatis cum officiis nihil. Necessitatibus neque eos et.</p>
+
+	</div>
     
-    <ul>
-        <li><a href="index.html">Pagina 1</a></li>
-        <li><a href="pagina2.html">Pagina 2</a></li>
-        <li><a href="pagina3.html">Pagina 3</a></li>
-        <li><a href="pagina4.html">Pagina 4</a></li>
-        <li><a href="pagina5.html">Pagina 4</a></li>
-    </ul>
+	<fieldset>
+		<legend>Mensaje</legend>
+		<form action="registro.php">
+			<p><label>Tu Nombre: <input type="text" name="nombre"></label></p>
+			<p><label>Tu direccion de correo: <input type="text" name="email"></label></p>
+			<p><label>Tu mensaje: <input type="text" name="mensaje"></label></p>
+		</form>
+	</fieldset>
+    <fieldset>
+		<legend>Nuevo Temas</legend>
+		<form action="registro.php">
+			<p>
+                Que temas te gustaria que trate en mi sitio?
+            <input type="checkbox" name="html">Html<br/>
+			<input type="checkbox" name="graficos">Graficos<br/>
+			<input type="checkbox" name="videojuegos"> Videojuegos<br/>
+			<input type="checkbox" name="arte">Arte<br/>
+            <input type="checkbox" name="Musica">Musica<br/>
+
+            </p>
+		</form>
+	</fieldset>
+	<div>
+		<p>
+			<input type="reset" name="" value="Reinciar Formulario">
+			<input type="submit" name="" value="Enviar Mensaje">
+		</p>
+	</div>
+
+	<hr>
+        <ul>
+            <li><a href="index.html">Pagina 1</a></li>
+            <li><a href="pagina2.html">Pagina 2</a></li>
+            <li><a href="pagina3.html">Pagina 3</a></li>
+            <li><a href="pagina4.html">Pagina 4</a></li>
+        </ul>
     <hr/>
+	
+</body>
+</html>
